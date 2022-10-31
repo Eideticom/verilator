@@ -610,6 +610,7 @@ public:
             VerilatedVpiCbHolder& ho = *it;
             VL_DEBUG_IF_PLI(VL_DBG_MSGF("- vpi: reason_callback reason=%d id=%" PRId64 "\n",
                                         reason, ho.id()););
+            ho.invalidate();
             (ho.cb_rtnp())(ho.cb_datap());
             called = true;
             if (was_last) break;

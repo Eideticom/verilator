@@ -18,6 +18,12 @@
 Welcome to Verilator
 ====================
 
+----------
+
+**⚠ Verilator fork that with VPI callbacks patch required for CoCoTB simulations** `VPI: simulation time callbacks should be one-time #2778 <https://github.com/verilator/verilator/issues/2778#issuecomment-886149648>`_
+
+----------
+
 .. list-table::
 
    * - **Welcome to Verilator, the fastest Verilog/SystemVerilog simulator.**
