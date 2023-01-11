@@ -18,6 +18,16 @@
 Welcome to Verilator
 ====================
 
+----------
+
+**⚠ Verilator fork that with VPI callbacks patch required for CoCoTB simulations** `VPI: simulation time callbacks should be one-time #2778 <https://github.com/verilator/verilator/issues/2778#issuecomment-886149648>`_
+
+- patch at `branch: v5.004-vpi-callback-patch <https://github.com/Eideticom/verilator/tree/v5.002-vpi-callback-patch>`_ (:code:`git checkout v5.002-vpi-callback-patch`)
+- cocotb_ver="1.7.1"
+- cocotb_bus_ver="v0.1.0" (if using `alexforencich/cocotbext-axi <https://github.com/alexforencich/cocotbext-axi>`_, `Simulation gets stuck with SIM=verilator 4.106 #35 <https://github.com/alexforencich/cocotbext-axi/issues/35>`_)
+
+----------
+
 .. list-table::
 
    * - **Welcome to Verilator, the fastest Verilog/SystemVerilog simulator.**

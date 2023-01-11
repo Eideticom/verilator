@@ -8,6 +8,13 @@ The changes in each Verilator version are described below.  The
 contributors that suggested a given feature are shown in []. Thanks!
 
 
+Verilator 5.004 2023-01-11
+============================
+
+**Applied Patch to VPI callbacks: Required for CoCoTB simulations**
+`VPI: simulation time callbacks should be one-time #2778<https://github.com/verilator/verilator/issues/2778#issuecomment-886149648>_`
+
+
 Verilator 5.004 2022-12-14
 ==========================
 
